@@ -6,7 +6,7 @@ class Bank:
         self.conn = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="MYsql@123",
+            password="sql@123",
             database="bank_database")
         self.cursor = self.conn.cursor()
         print("Database connected successfully!")
